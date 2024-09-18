@@ -4,7 +4,7 @@ import random
 # Created customized list.
 list_words = ['hangman', 'apple', 'computer', 'satellite', 'table', 'book', 'happiness']
 random_word = random.choice(list_words).upper()  # Randomly picks from the list.
-print(random_word)  # Testing (optional)
+# print(random_word)  # Testing (comment out to try)
 
 count = 0   # Start count for wrong guesses.
 
